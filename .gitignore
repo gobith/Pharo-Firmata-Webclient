@@ -1,2 +1,4 @@
 /node_modules/
 /.idea/
+/Pharo6.1/
+npm-debug.log
