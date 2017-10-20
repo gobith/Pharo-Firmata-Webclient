@@ -5,8 +5,8 @@ export default function (state = {}, action) {
     switch (action.type) {
 
         case WEBSOCKET_MESSAGE:
-            console.log(action.payload.data);
-            return action.payload.data
+            return JSON.parse(action.payload.data);
+            break;
 
     }
 

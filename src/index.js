@@ -4,6 +4,7 @@ import {Provider} from 'react-redux';
 import {applyMiddleware, createStore} from 'redux';
 import allReducers from './reducers/all-reducers';
 import FirmataTestTool from './components/firmata-test-tool';
+import FirmataTestTable from './components/firmata-test-table';
 import axios from 'axios';
 import thunk from 'redux-thunk';
 import websocket from '@giantmachines/redux-websocket';
@@ -23,6 +24,9 @@ store.dispatch({
 
 ReactDOM.render(
     <Provider store={store}>
-        <FirmataTestTool/>
+       <div>
+           <FirmataTestTool/>
+           <FirmataTestTable/>
+       </div>
     </Provider>
     , document.getElementById('root'));
