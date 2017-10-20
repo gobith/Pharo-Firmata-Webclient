@@ -20,6 +20,7 @@
     "webpack": "^3.6.0"
   },
   "dependencies": {
+    "@giantmachines/redux-websocket": "git+https://github.com/giantmachines/redux-websocket.git",
     "axios": "^0.16.2",
     "bootstrap": "^4.0.0-beta",
     "jquery": "^3.2.1",
