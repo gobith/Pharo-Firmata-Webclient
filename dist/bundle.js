@@ -6281,6 +6281,7 @@ _reactDom2.default.render(_react2.default.createElement(
         'div',
         null,
         _react2.default.createElement(_firmataTestTool2.default, null),
+        _react2.default.createElement(_firmataTestTable2.default, null),
         _react2.default.createElement(_firmataTestTable2.default, null)
     )
 ), document.getElementById('root'));

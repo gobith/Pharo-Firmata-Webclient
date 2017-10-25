@@ -27,6 +27,7 @@ ReactDOM.render(
        <div>
            <FirmataTestTool/>
            <FirmataTestTable/>
+           <FirmataTestTable/>
        </div>
     </Provider>
     , document.getElementById('root'));
