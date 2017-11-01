@@ -9,6 +9,7 @@ import axios from 'axios';
 import thunk from 'redux-thunk';
 import websocket from '@giantmachines/redux-websocket';
 import { WEBSOCKET_CONNECT } from '@giantmachines/redux-websocket';
+require("./css/style.css");
 
 
 
@@ -25,8 +26,6 @@ store.dispatch({
 ReactDOM.render(
     <Provider store={store}>
        <div>
-           <FirmataTestTool/>
-           <FirmataTestTable/>
            <FirmataTestTable/>
        </div>
     </Provider>
